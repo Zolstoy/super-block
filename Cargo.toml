@@ -1,0 +1,16 @@
+[package]
+name = "super-block"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zolstoy <zolstoy.dev@gmail.com>"]
+description = "Starting under the ground, you have to reach the surface, or the core"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+noise = { version = "0.9.0", features = ["images"]}
+rustls = "0.23.27"
+rustls-pki-types = "1.12.0"
+thiserror = "2.0.12"
+tokio = {version = "1.45.0", features=["full"]}
+tokio-rustls = "0.26.2"
+webpki-roots = "1.0.0"
