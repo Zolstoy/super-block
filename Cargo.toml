@@ -7,6 +7,8 @@ description = "Starting under the ground, you have to reach the surface, or the 
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+hyper = "1.6.0"
+hyper-tungstenite = "0.17.0"
 noise = { version = "0.9.0", features = ["images"]}
 rustls = "0.23.27"
 rustls-pki-types = "1.12.0"
